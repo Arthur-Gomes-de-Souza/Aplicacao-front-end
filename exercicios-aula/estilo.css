@@ -1,0 +1,19 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: orange;
+}
+
+h2 {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+
+p {
+    padding: 5px;
+}
