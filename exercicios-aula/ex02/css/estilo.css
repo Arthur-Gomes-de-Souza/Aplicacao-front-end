@@ -1,0 +1,38 @@
+body {
+    font: 400 var(--text-font-size) var(--text-font);
+    color: var(--text-color);
+    background: var(---background-color);
+}
+
+.title {
+    font: 700 var(--title-font-size) var(--title-font);
+    color: var(--title-color);
+}
+
+header {
+    background-color: var(--base-color-one);
+    padding: var(--standart-padding);
+    text-align: center;
+}
+
+main {
+    padding: var(--standart-padding);
+}
+
+nav {
+    background-color: var(--base-color-two);
+    padding: var(--standart-padding);
+}
+
+aside {
+    background-color: var(--base-color-three);
+    padding: var(--standart-padding);
+    color: var(--text-color-light);
+}
+
+footer {
+    background-color: var(--base-color-one);
+    padding: var(--standart-padding);
+    color: var(--text-color-light);
+    text-align: center;
+}
