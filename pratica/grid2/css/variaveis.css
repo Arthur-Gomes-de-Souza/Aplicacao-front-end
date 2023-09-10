@@ -1,0 +1,12 @@
+:root {
+    font-size: 62.5%;
+        --standart-padding: 2.0rem;
+    
+        /* fonts type*/
+        --title-font: 'Poppins', sans-serif;
+        --text-font: 'DM Sans', sans-serif;
+    
+        /* fonts size */
+        --title-font-size: 3.0rem;
+        --text-font-size: 1.6rem;
+}
