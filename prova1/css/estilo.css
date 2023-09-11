@@ -1,0 +1,62 @@
+body {
+    font: 400 var(--text-font-size);
+}
+
+header {
+    background: rgb(3, 199, 199);
+    padding: var(--standart-padding);
+    text-align: center;
+}
+
+aside {
+    background: rgb(241, 233, 233);
+    padding: var(--standart-padding);
+}
+
+article {
+    padding: var(--standart-padding);
+}
+
+section {
+    padding: 1.5rem;
+}
+
+footer {
+    padding: var(--standart-padding);
+    background-color: rgb(3, 13, 59);
+    color: var(--text-color-light);
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    color: rgb(239, 255, 92);
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+}
+
+a {
+    font-size: var(--text-font-size);
+}
+
+li {
+    padding: 5px;
+}
+
+img {
+    width: 450px;
+}
+
+.flebox {
+    display: flex;
+}
