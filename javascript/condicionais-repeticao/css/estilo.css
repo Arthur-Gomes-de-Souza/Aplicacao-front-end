@@ -1,0 +1,43 @@
+
+
+header {
+    background-color: rgb(3, 199, 199);
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #d6fb05;
+    font-size: 2.5em;
+}
+
+nav{
+    background-color: rgb(223, 217, 217);
+    color: white;
+}
+
+aside {
+    background-color: rgb(223, 217, 217);
+    color: white;
+}
+
+main {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(3, 13, 59);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+button {
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
