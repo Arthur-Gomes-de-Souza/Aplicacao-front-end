@@ -9,26 +9,17 @@
 </head>
 <body>
 
-    <h1>Conversor de Temperatura</h1>
-
-    <form>
-        <label for="temperatura">Valor a converter:</label>
-        <input type="number" name="temperatura" id="temperatura">
-        <br>
-
-        <input type="radio" name="conversao" id="celsius" value="celsius">
-        <label for="celsius">Celsius para Fahrenheit</label>
-        <br>
-        
-        <input type="radio" name="conversao" id="fahrenheit" value="fahrenheit">
-        <label for="fahrenheit">Fahrenheit para Celsius</label>
-        <br>
-
-        <button id="botao" onclick="tempConvert()">Converter</button>
-
-        <h4>Resposta:</h4> <h4 id="resposta"></h4>
-        
-    </form>
+    <div class="container">
+        <div class="input-box">
+            <h6>Celsius</h6>
+            <input type="number" id="celsius">
+        </div>
+        <i class="icon">=</i>
+        <div class="input-box">
+            <h6>Fahrenheit</h6>
+            <input type="number" id="fahrenheit">
+        </div>
+    </div>
     
     <script src="script.js"></script>
 </body>
